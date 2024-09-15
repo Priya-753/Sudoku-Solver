@@ -1,6 +1,8 @@
 # Sudoku Solver
 A Python-based sudoku solver that processes sudoku puzzle images and solves it using OpenCV and Py Sudoku. This is an extension of the document scanner project in my repository.
 
+![scanned images](https://github.com/Priya-753/Sudoku-Solver/blob/master/result.png?raw=true)
+
 ## Features
 - Scans all images in a folder.
 - Detects sudoku puzzles within images.
