@@ -1,18 +1,20 @@
-# Document Scanner
-A Python-based document scanner that processes images to detect and extract documents. This script leverages OpenCV to handle image processing tasks and generates results saved in a specified directory.
+# Sudoku Solver
+A Python-based sudoku solver that processes sudoku puzzle images and solves it using OpenCV and Py Sudoku. This is an extension of the document scanner project in my repository.
 
 ## Features
 - Scans all images in a folder.
-- Detects documents within images.
-- Saves processed results in a designated folder.
+- Detects sudoku puzzles within images.
+- Saves processed results in a results folder.
 - Utilizes OpenCV for image processing.
+- Utilizes PySudoku to solve the sudoku puzzles.
+- Utilizes tensorflow to train the model for digit recognition.
 
 ## Set Up
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Document-Scanner.git
-cd Document-Scanner
+git clone https://github.com/your-username/Sudoku-Solver.git
+cd Sudoku-Solver
 ```
 
 ### Set Up a Virtual Environment
@@ -40,22 +42,12 @@ Ensure there is a folder named results where the processed images will be saved.
 Execute the script to process images:
 
 ```bash
-python document_scanner.py
+python solve_sudoku.py
 ```
 
 The script will:
  - Read all images from the images folder.
- - Process each image to detect and extract documents.
- - Save the processed images to the results folder with the same name.
-
-### Script Overview
-The main script document_scanner.py performs the following steps:
-
-- Load Images: Reads images from the images folder.
-- Process Images: Applies document scanning techniques to detect and extract documents.
-- Save Results: Saves the processed images in the results folder.
+ - Process each image to detect the sudoku puzzle.
+ - Save the solved images to the results folder with the same name.
 
 Ensure that you have images in the images folder, and you will find the results in the results folder.
-
-Contributing
-Feel free to open issues or submit pull requests if you have improvements or fixes. Contributions are welcome!
