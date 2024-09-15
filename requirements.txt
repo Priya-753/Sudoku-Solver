@@ -1,0 +1,6 @@
+numpy==1.25.2
+scikit-image==0.21.0
+opencv-python==4.8.0.76
+imutils==0.5.4
+py-sudoku==1.0.0
+tensorflow==2.14.0
